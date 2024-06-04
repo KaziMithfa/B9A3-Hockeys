@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Manrope Font -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+
+    <!-- Daisy UI Link -->
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.11.1/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- script for color with tailwing -->
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                        'button-color': '#FF4240',
+                    }
+                }
+            }
+        }
+    </script>
+
+
+
+    <title>Hockey Website</title>
+
+    <style>
+        .font-manrope {
+            font-family: "Manrope", sans-serif;
+        }
+    </style>
+
+
+</head>
+
+<body class=".font-manrope  ">
+
+    <header class="container mx-auto">
+
+        <!-- Banner section starts from here... -->
+
+
+
+        <div class="relative w-full my-4">
+
+
+
+
+            <!-- tropy slider starts here... -->
+
+            <div class="carousel w-full my-4 z-0   ">
+                <div id="slide1" class="carousel-item relative w-full">
+                    <img src="Images/1.png" class="w-full " />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide3" class="btn btn-circle">❮</a>
+                        <a href="#slide2" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <div id="slide2" class="carousel-item relative w-full">
+                    <img src="Images/trophy2.jpg" class="w-full" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide1" class="btn btn-circle">❮</a>
+                        <a href="#slide3" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <div id="slide3" class="carousel-item relative w-full">
+                    <img src="Images/trophy3.jpg" class="w-full" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide2" class="btn btn-circle">❮</a>
+                        <a href="#slide1" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+            <div
+                class="bg-black  lg:w-[400px] absolute z-10 text-white pt-1 pl-1 lg:pt-4 lg:pl-4 ml-[50px]   lg:ml-[750px]  -mt-32 ">
+                <h1>Meet all the heroes from the field</h1>
+                <p>The players are giving their best to win the trophies for the supportes. So, please support us
+                </p>
+
+
+            </div>
+
+
+
+
+
+            <!-- trophy slider ends here... -->
+
+
+
+        </div>
+
+        <!-- Banner section ends  here... -->
+
+
+
+    </header>
+
+
+
+    <main class="container mx-auto">
+
+        <!-- Professional club section starts here.. -->
+
+        <section>
+
+            <h1 class="text-center text-[#131318] font-extrabold text-4xl">Professional Hockeys Club</h1>
+            <p class="text-center text-xl font-semibold mt-2">It is a professional Hockey Club and we are trying to
+                produce
+                good level
+                players every year</p>
+
+            <!-- Club properties div -->
+
+            <div class="flex flex-col  lg:flex-row items-center lg:justify-between mt-2 ">
+
+                <div class="my-3 flex flex-col items-center">
+
+                    <div class="radial-progress text-red-500 " style="--value:70;" role="progressbar">87%
+                    </div>
+
+                    <h2 class="text-center">Prayer Facility</h2>
+                    <p class="text-center w-[250px]">We have prayer facility for all our players,coaches and stuffs</p>
+
+                </div>
+
+                <div class="my-3 flex flex-col items-center">
+
+                    <div class="radial-progress text-green-500 " style="--value:70;" role="progressbar">95%
+                    </div>
+
+                    <h2 class="text-center">Experienced Coach</h2>
+                    <p class="text-center w-[250px]">We have experienced coaches in our all levle of teams</p>
+
+                </div>
+
+                <div class="my-3 flex flex-col items-center">
+
+                    <div class="radial-progress text-yellow-500 " style="--value:70;" role="progressbar">90%
+                    </div>
+
+                    <h2 class="text-center">Senior Player</h2>
+                    <p class="text-center w-[250px]">We have senior players who have contributions to our team</p>
+
+                </div>
+
+                <div class="my-3 flex flex-col items-center">
+
+                    <div class="radial-progress text-blue-500 " style="--value:70;" role="progressbar">80%
+                    </div>
+
+                    <h2 class="text-center">Traning Ground </h2>
+                    <p class="text-center w-[250px]">We have Trainging Ground facilities which is world class!</p>
+
+                </div>
+
+
+
+            </div>
+
+
+        </section>
+
+        <!-- Professional club section ends here.. -->
+
+        <!-- Program Section starts here.. -->
+
+        <section class="my-6">
+
+            <h1 class="text-center text-[#131318] text-2xl font-extrabold">Program Section</h1>
+            <p class="text-center text-xl font-black">We have lot of programs like junior programs , senior programs
+                etc.</p>
+
+            <!-- Program section div starts here.. -->
+
+
+            <div class=" grid grid-cols-1 lg:grid-cols-2 my-8 gap-x-3 gap-y-3 ">
+
+                <div class=" bg-[url('Images/2.png')] bg-cover p-5 bg-[#13131880
+                ]  lg:p-10 h-[338px] rounded-2xl ">
+
+
+
+                    <div>
+
+                        <h1 class="text-white font-extrabold text-2xl">Junior Program</h1>
+                        <p class="lg:w-[495px] text-[#FFF] mt-2 ">We have Junior program where the under 13, 14,
+                            16,18,19
+                            players
+                            are playing
+                            . It is the main
+                            supply chain for our club senior players. It is the main strong zone of our club</p>
+
+                        <button
+                            class="p-2 bg-button-color text-white rounded-lg border border-button-color mt-4">Register
+                            Now!</button>
+
+
+                    </div>
+
+
+
+
+
+                </div>
+
+                <div class=" bg-[url('Images/3.png')] bg-cover p-5 bg-[#13131880]  lg:p-10 h-[338px] rounded-2xl ">
+
+
+
+                    <div>
+
+                        <h1 class="text-white font-extrabold text-2xl">Teenager Program</h1>
+                        <p class="lg:w-[495px] text-[#FFF] mt-2 ">We have also teenager program in our club, which is
+                            very impotant for the club.The teenagers are playing for the club through this program. It
+                            is also a very good opportunity for them.</p>
+
+                        <button
+                            class="p-2 bg-button-color text-white rounded-lg border border-button-color mt-4">Register
+                            Now!</button>
+
+
+                    </div>
+
+
+
+
+
+                </div>
+
+                <div
+                    class="bg-[url('Images/4.png')] bg-cover  bg-[#13131880]  lg:p-10 h-[338px] rounded-2xl lg:col-span-2 p-4">
+
+                    <h3 class="text-white font-extrabold text-2xl mt-40">Professioanal Program</h3>
+                    <p class="text-white mt-2">Professional program is the main major program of the club where the main
+                        tema plays. That is the important sector of the club.</p>
+
+                    <button
+                        class="p-2 bg-button-color text-white rounded-lg border border-button-color lg:mt-3">Register
+                        Now!</button>
+
+
+
+
+                </div>
+
+
+
+
+
+            </div>
+
+
+
+        </section>
+
+
+        <!-- Program Section ends here.. -->
+
+
+
+
+
+    </main>
+
+</body>
+
+</html>
